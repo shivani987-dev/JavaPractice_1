@@ -6,13 +6,13 @@ public class Largestnumber {
 	        int a = 10, b = 25, c = 18;
 
 	        if(a >= b && a >= c) {
-	            System.out.println("Largest number is " + a);
+	            System.out.println(a);
 	        }
 	        else if(b >= a && b >= c) {
-	            System.out.println("Largest number is " + b);
+	            System.out.println(b);
 	        }
 	        else {
-	            System.out.println("Largest number is " + c);
+	            System.out.println(c);
 	        }
 	    }
 
